@@ -1,0 +1,58 @@
+Using Spark master 'local[*]'
+Total count for file 'nasa_19950630.22-19950728.12.tsv' is 1891709
+Command 'count-all' on file 'nasa_19950630.22-19950728.12.tsv' finished in 1.177658907 seconds
+Using Spark master 'local[*]'
+Total count for file 'nasa_19950630.22-19950728.12.tsv' with response code 302 is 46573
+Command 'code-filter' on file 'nasa_19950630.22-19950728.12.tsv' finished in 1.0135632270000001 seconds
+Using Spark master 'local[*]'
+Total count for file 'nasa_19950630.22-19950728.12.tsv' in time range [804955673, 805590159] is 554919
+Command 'time-filter' on file 'nasa_19950630.22-19950728.12.tsv' finished in 1.035464932 seconds
+Using Spark master 'local[*]'
+Number of lines per code for the file nasa_19950630.22-19950728.12.tsv
+Code,Count
+302,46573
+501,14
+404,10845
+500,62
+403,54
+304,132627
+200,1701534
+Command 'count-by-code' on file 'nasa_19950630.22-19950728.12.tsv' finished in 1.3495352930000002 seconds
+Using Spark master 'local[*]'
+Total bytes per code for the file nasa_19950630.22-19950728.12.tsv
+Code,Sum(bytes)
+501,0
+403,0
+304,0
+200,37585778
+404,0
+302,3682049
+500,0
+Command 'sum-bytes-by-code' on file 'nasa_19950630.22-19950728.12.tsv' finished in 1.6805955330000002 seconds
+Using Spark master 'local[*]'
+Average bytes per code for the file nasa_19950630.22-19950728.12.tsv
+Code,Avg(bytes)
+501,0.0
+403,0.0
+304,0.0
+200,22736.166043111687
+404,0.0
+302,79.0597341807485
+500,0.0
+Command 'avg-bytes-by-code' on file 'nasa_19950630.22-19950728.12.tsv' finished in 1.512970524 seconds
+Using Spark master 'local[*]'
+Top host in the file nasa_19950630.22-19950728.12.tsv by number of entries
+Host: piweba3y.prodigy.com
+Number of entries: 17572
+Command 'top-host' on file 'nasa_19950630.22-19950728.12.tsv' finished in 3.095174987 seconds
+Using Spark master 'local[*]'
+Comparison of the number of lines per code before and after 805383872 on file nasa_19950630.22-19950728.12.tsv
+Code,Count before,Count after
+302,21057,25516
+501,2,12
+404,3864,6981
+500,53,9
+403,19,35
+304,38000,94627
+200,594412,1107122
+Command 'comparison' on file 'nasa_19950630.22-19950728.12.tsv' finished in 2.2164544090000002 seconds
