@@ -8,7 +8,7 @@
   <name>qhu027_lab3</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <hadoop.version>2.10.0</hadoop.version>
+    <hadoop.version>3.2.3</hadoop.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
